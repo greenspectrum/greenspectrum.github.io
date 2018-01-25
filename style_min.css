@@ -291,7 +291,24 @@ header hr   {
     text-align: center;
     overflow: hidden;
 }
+/*
+.projects_article   {
+    font-size: 50px;
+    text-align: left;
+    font-weight: 900;
+    display: inline-block;
+    vertical-align: middle;
+    width: 170px;
+    margin: 0 0 50px 10px;
+    color: #323232;
+}
 
+.projects_article img   {
+    width: 80px;
+    margin: 10px 0 0 50px;
+
+}
+*/
 .projects_category {
     display: inline-block;
     vertical-align: middle;
@@ -322,15 +339,6 @@ header hr   {
 
 #all_category  {
     border-bottom: 3px solid #00D9FF;
-
-}
-
-.hide, .hide .screenshot_background {
-    width: 0;
-    height: 0;
-    z-index: -10;
-    position: absolute;
-    transition: all 0.3s ease-in-out;
 
 }
 
@@ -398,6 +406,16 @@ header hr   {
     text-decoration: none;
     color: #00D9FF;
     transition: all 0.2s ease-in-out;
+}
+
+.hide, .hide .screenshot_background, .hide .project_description, .hide .project_name {
+    width: 0;
+    height: 0;
+    z-index: -10;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+    display: none;
+
 }
 
 .contacts, footer   {
